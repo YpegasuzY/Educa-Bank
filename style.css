@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.cabecalho{
+    padding: 60px;
+    background-color: #578dab;
+    display: flex;
+    justify-content: end;
+    font-size: 15px;
+    color: white;
+}
+.cabecalho ul{
+    display: flex;
+    list-style: none;
+}
+.cabecalho li{
+    margin-left: 10px;
+}
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+}
+.cabecalho a:hover{
+    color: #02505a;
+    transition: 0.4s;
+}
+/* .color1 { #4c84ac };
+.color2 { #b0d0dc };
+.color3 { #28465b };
+.color4 { #578dab };
+.color5 { #aec4c7 }; */
