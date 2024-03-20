@@ -42,3 +42,17 @@ header { /*Chamamos nosso Header para estilização*/
 .color3 { #28465b };
 .color4 { #578dab };
 .color5 { #aec4c7 }; */
+
+/* aulinha sobre unidade de medidas */
+
+/* px é uma unidade de medida de tamanho fixo.
+tamanho padrão do paragrafo é 16 px*/
+
+/* em - Ele trabalha em relação ao tamanho da font do elemento pai (padrão) (de forma especifica esta unidade de medida multiplica o tamanho da fonte do elemento pai no que voce esta solicitando) */
+
+/* rem - Root em = ele vai depender do elemento pai de tudo (HTML) Documento principal da página */
+/* font-size 62.5%; | é = a 10px mais usual usar este paramêtro para contagem */
+
+/* vh - viewport height (altura) tamanho em relação a tela do usuário (trabalha como se fosse porcentagem) */
+
+/* vw - viewport width (largura) tamanho em relação da tela do usuário (trabalha como se fosse porcentagem) */
