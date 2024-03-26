@@ -41,15 +41,18 @@ header { /*Chamamos nosso Header para estilização*/
     padding: 15rem;
     background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
 }
+
 h1{
     font-size: 3em; /* 48px */
     color: rgba(0, 0, 0, 0.759);
     
 }
+
 #sessao p{
     font-size: 2.3em;
     margin: 20px 0;
 }
+
 #sessao button{
     padding: 22px;
     border-radius: 50px;
@@ -95,6 +98,65 @@ h1{
     margin-left: 50px;
 }
 
+#container{
+    padding: 15rem;
+    background-color: rgb(226, 233, 233);
+}
+
+#container h2{
+    font-size: 40px;
+    text-align: center;
+    color: rgba(0, 0, 255, 0.699);
+    margin-top: -20rem;
+    margin-bottom: 2rem;
+}
+
+#container p{
+    font-size: 1.4rem;
+    color: rgb(34, 34, 74,);
+    margin-bottom: 2.4rem;
+    text-align: justify;
+}
+
+#container button{
+    padding: 15px;
+    border-radius: 3rem;
+    width: 12rem;
+    margin-bottom: 50px;
+    border-color: blue;
+    cursor: pointer;
+}
+
+#container button a{
+    text-decoration: none;
+    color: blue;
+}
+
+#container button:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+
+#container button a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.line{
+    width: 70%;
+    margin: 2.5rem auto;
+}
+
+#container img{
+    width: 80%;
+    margin-left: 50px;
+}
+
+#container-cofre {
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba (5, 39, 101, 0.745) 100%), url(imagens/img\ cofre\ fundo.jpg);
+    
+}
+
 
 
 /* .color1 { #4c84ac };
@@ -116,4 +178,5 @@ tamanho padrão do paragrafo é 16 px*/
 /* vh - viewport height (altura) tamanho em relação a tela do usuário (trabalha como se fosse porcentagem) */
 
 /* vw - viewport width (largura) tamanho em relação da tela do usuário (trabalha como se fosse porcentagem) */
+
 /* cssgradient.io */
