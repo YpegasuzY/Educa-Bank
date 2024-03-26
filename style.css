@@ -153,11 +153,64 @@ h1{
 }
 
 #container-cofre {
-    background: linear-gradient(180deg, #0c16a364 8.33%, rgba (5, 39, 101, 0.745) 100%), url(imagens/img\ cofre\ fundo.jpg);
-    
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%),url(imagens/img\ cofre\ fundo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    padding: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+#container-cofre img{
+    width: 20rem;
+    height: auto;
+    margin-top: 9rem;
+}
 
+#container-cofre h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#container-cofre p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-weight: 700;
+}
+
+footer{
+background-color: rgb(26, 25, 25);
+padding: 5rem;
+text-align: center;
+}
+
+footer img{
+   width: 18rem;
+}
+
+footer div{
+    display: flex;
+    padding: 1rem;
+    color: white;
+    justify-content: space-between;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: red;
+    transition: 0.6s;
+}
 
 /* .color1 { #4c84ac };
 .color2 { #b0d0dc };
