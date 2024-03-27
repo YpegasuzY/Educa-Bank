@@ -59,11 +59,14 @@ h1{
     border-color: rgb(19, 153, 108);
     width: 20em;
     cursor: pointer;
+    color: rgb(19, 153, 108);
 }
 
-#sessao button a{
-    text-decoration: none;
-    color: rgb(19, 153, 108);
+#sessao button:hover{
+    color: white;
+    border-color: white;
+    background-color: rgb(19, 153, 108);
+    transition: 0.8s;
 }
 
 #app{
@@ -79,11 +82,14 @@ h1{
     border-color: rgb(19, 153, 108);
     width: 20em;
     cursor: pointer; 
+    color: rgb(19, 153, 108);
 }
 
-#app button a{
-    text-decoration: none;
-    color: rgb(19, 153, 108);
+#app div button:hover{
+    border-color: white;
+    color: white;
+    background-color: rgb(19, 153, 108);
+    transition: 0.8s;
 }
 
 #app div p{
@@ -123,23 +129,20 @@ h1{
     border-radius: 3rem;
     width: 12rem;
     margin-bottom: 50px;
-    border-color: blue;
+    border-color: rgb(19, 153, 108);
     cursor: pointer;
-}
-
-#container button a{
-    text-decoration: none;
-    color: blue;
+    color: brgb(19, 153, 108)lue;
 }
 
 #container button:hover{
-    background-color: blue;
-    transition: 0.5s;
+    color: white;
+    border-color: white;
+    background-color: rgb(19, 153, 108);
+    transition: 0.8s;
 }
 
-#container button a:hover{
-    color: white;
-    transition: 0.5s;
+#container button:hover{
+
 }
 
 .line{
@@ -208,7 +211,7 @@ footer a{
 }
 
 #footer a:hover {
-    color: red;
+    color: purple;
     transition: 0.6s;
 }
 
