@@ -141,10 +141,6 @@ h1{
     transition: 0.8s;
 }
 
-#container button:hover{
-
-}
-
 .line{
     width: 70%;
     margin: 2.5rem auto;
@@ -236,3 +232,78 @@ tamanho padrão do paragrafo é 16 px*/
 /* vw - viewport width (largura) tamanho em relação da tela do usuário (trabalha como se fosse porcentagem) */
 
 /* cssgradient.io */
+
+
+/* 480x */
+/* 767x */
+/* 991x */
+/* 1366x */
+/* 1920x */
+
+@media screen and (max-width: 1920px) {
+    
+}
+
+@media screen and (max-width: 1366px) {
+    
+}
+
+@media screen and (max-width: 991px) {
+    #sessao{
+        padding: 25vh;
+    }
+
+    #sessao h1{
+        font-size: 2.5em;
+    }
+    
+    #sessao p{
+        font-size: 1.8rem;
+        margin: 15px 0;
+    }
+
+    #sessao a button{
+        width: 15em;
+        padding: 0.9rem;
+    }
+
+    #app{
+        padding: 30vh;
+    }
+
+    #app a button{
+        width: 15em;
+        padding: 0.9rem;
+    }
+
+    #app div p{
+        font-size: 1.8em;
+    }
+    
+    #app div img{
+        width: 18rem;
+        height: auto;
+    }
+
+    #container{
+        padding: 35vh;
+    }
+
+    #container h2{
+    margin-top: 1rem;
+    }
+
+    #container a button{
+        width: 14em;
+        padding: 0.9rem;
+        margin-left: 12rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+}
