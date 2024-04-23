@@ -268,7 +268,7 @@ tamanho padrão do paragrafo é 16 px*/
     }
 
     #app{
-        padding: 30vh;
+        padding: 25vh;
     }
 
     #app a button{
@@ -286,28 +286,33 @@ tamanho padrão do paragrafo é 16 px*/
     }
 
     #container{
-        padding: 30vh;
+        padding: 25vh;
     }
 
     #container h2{
     margin-top: 1rem;
+    font-size: 1.9em;
+    }
+
+    #container p{
+        font-size: 1em;
     }
 
     #container a button{
         width: 14em;
         padding: 0.9rem;
-        margin: 0 13rem;
+        margin: 0 25vh;
     }
 
     #container-cofre{
-        padding: 30vh;
+        padding: 25vh;
     }
     #container-cofre h2{
         font-size: 1.8rem;
     }
 
     #container-cofre img{
-        width: 45vh;
+        width: 30vh;
         margin: 0 20px;
     }
 
@@ -354,3 +359,5 @@ tamanho padrão do paragrafo é 16 px*/
 @media screen and (max-width: 480px) {
     
 }
+
+/* pixabay site para pegar videos sem direitos autorais */
