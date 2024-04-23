@@ -286,7 +286,7 @@ tamanho padrão do paragrafo é 16 px*/
     }
 
     #container{
-        padding: 35vh;
+        padding: 30vh;
     }
 
     #container h2{
@@ -296,7 +296,7 @@ tamanho padrão do paragrafo é 16 px*/
     #container a button{
         width: 14em;
         padding: 0.9rem;
-        margin-left: 13rem;
+        margin: 0 13rem;
     }
 
     #container-cofre{
@@ -317,7 +317,38 @@ tamanho padrão do paragrafo é 16 px*/
 }
 
 @media screen and (max-width: 767px) {
-    .menu-header{}
+    header{
+        padding: 8vh;
+        font-size: 15px;
+    }
+
+    #sessao{
+        padding: 23vh;
+    }
+
+    #sessao h1{
+        font-size: 2.2em;
+    }
+
+    #sessao p{
+        font-size: 1.5em;
+    }
+
+    #sessao a button{
+        font-size: 12px;
+        padding: 0.9em;
+    }
+
+    #app{
+        padding: 25vh;
+    }
+
+    #app div button{
+        font-size: 12px;
+        padding: 0.9em;
+    }
+
+
 }
 
 @media screen and (max-width: 480px) {
