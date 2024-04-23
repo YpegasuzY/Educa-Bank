@@ -296,12 +296,28 @@ tamanho padrão do paragrafo é 16 px*/
     #container a button{
         width: 14em;
         padding: 0.9rem;
-        margin-left: 12rem;
+        margin-left: 13rem;
+    }
+
+    #container-cofre{
+        padding: 30vh;
+    }
+    #container-cofre h2{
+        font-size: 1.8rem;
+    }
+
+    #container-cofre img{
+        width: 45vh;
+        margin: 0 20px;
+    }
+
+    footer{
+       padding: 2.2rem;
     }
 }
 
 @media screen and (max-width: 767px) {
-    
+    .menu-header{}
 }
 
 @media screen and (max-width: 480px) {
