@@ -357,7 +357,70 @@ tamanho padrão do paragrafo é 16 px*/
 }
 
 @media screen and (max-width: 480px) {
-    
+    #sessao{
+        padding: 18vw;
+    }
+    #app{
+        padding: 8vw;
+    }
+
+    #app div p{
+        font-size: 1.4rem;
+    }
+    #app div img{
+        margin-top: -0.5rem;
+        width: 10rem;
+    }
+    #app div{
+        width: 38vw;
+    }
+    #app div button{
+        width: 38vw;
+    }
+    #container{
+        padding: 10vw;
+    }
+    #container a button{
+        margin: 0 22vw;
+    }
+
+    #container-cofre{
+        padding: 3vw;
+    }
+
+    #container-cofre div p{
+        font-size: 0.8rem;
+    }
+    #container-cofre div h2{
+        font-size: 1.4rem;
+    }
+    #footer p{
+        font-size: 12px;
+    }
+    #footer div{
+        padding: 0;
+    }
 }
 
+
+@media screen and (max-width: 400px){
+   
+   #sessao{
+    padding: 10vw;
+   }
+   
+   
+   
+    #app div img{
+        margin-left: 6vw;
+    }
+
+    #container a button{
+        margin: 0 17vw;
+}
+
+    #container-cofre img{
+        width: 8rem;
+    }
+}
 /* pixabay site para pegar videos sem direitos autorais */
